@@ -1,0 +1,310 @@
+*{
+
+    margin:0;
+    padding:0;
+   
+   
+   }
+   
+   
+   body{
+       background: linear-gradient(#ffff,#7597de);
+       min-height: 10vh;
+         /* background-color: rgb(241, 209, 209);  */
+         /* margin: o; */
+         /* height: auto; */
+   }
+   
+    .logo1{
+          width: 90px;
+          float: left;
+          margin: 5px -134px -45px 4px;
+          display: block;
+          padding:12px;
+          border-radius: 111px;
+          transition:  all 1s ease-in-out;
+    }
+     .logo1:hover
+          {
+           transition:  all 1s ease-in-out;
+           transform:rotate(360deg) ;
+          }
+   
+     .navbar ul
+      {
+        display:flex;
+        flex-direction: row-reverse;
+        border: blueviolet;
+      }
+      .navbar li
+      { font-size:20px ;
+        padding:12px;
+        margin:12px 12px;
+        list-style: none;
+        transition: all 1s ease-in-out;
+       }
+       
+       .navbar ul li a
+       {    color: rgb(240, 106, 10);
+           text-decoration: none;
+       }
+       
+       .navbar ul :hover
+       {    color:chartreuse;
+           text-decoration: none;
+           background-color: rgb(80, 78, 78);
+           border-radius: 122px;
+           transition: all 1s ease-in-out;
+       }
+       .navbar::before{
+   
+       background:url('/image/bg5.jpg') no-repeat center center/cover;
+       content: " " ;
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       z-index:-1 ;
+       opacity: 0.99;
+       
+   }
+   
+   /* section 1    */
+   
+     .section1{
+   
+   margin: 12px 12ps;
+   text-align: center;
+    font-size: 46px;
+    color: rgb(238, 85, 14);
+    margin-top: 300px;
+    /* margin-bottom: 12px; */
+   }
+    .section1 p{
+       font-size: 15px;
+       color:blanchedalmond;
+       margin: 18px 63px;
+   }
+   .btr{
+       padding: 9px;
+       margin: 12px 12px;
+       background-color: rgb(10, 10, 10);
+       border-radius: 122px;     
+           
+   }
+   .btr a{
+       font-size: 22px;
+       color:chocolate;
+       text-decoration:none;
+       /* padding: 12px; */
+       transition: all 0.8s ease-in-out ;
+       
+   }
+   .btr a:hover{
+       padding: 9px;
+       background-color:rgb(10, 10, 10);
+       transition: all 0.8s ease-in-out ;
+       border-radius: 122px;   
+       color:chartreuse;
+       margin: 12px 12px;
+   }
+   
+   
+   /* section 2 */
+   .heading2{
+       font-size: 60px;
+     text-align: center;  
+    margin-top: 280px;
+   
+   }
+   .divv{
+     margin-top: 225px;
+     /* margin-bottom: 12px; */
+   }
+   
+   .divv p{
+       margin:12px 12px;
+     margin-top: 70px;
+     text-align: center;
+     margin-bottom: 12px;  
+   } 
+   
+   .section2{
+       margin-top: 15px;
+   display :flex;
+    
+   }
+   .div1{
+       border:2px solid chartreuse;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       margin: 114px 26px;
+       /* border:2px solid chocolate; */
+       background-color: rgb(245, 219, 224);
+       border-radius: 15px;
+       transition: all 1s ease-in-out;
+       padding: 30px;
+   }
+   
+   .div1:hover{
+      background-color: chartreuse;
+      transition: all 1s ease-in-out;
+   
+   }
+   .div1 p{
+       text-align: center;
+       margin-top: 50px;
+   }
+   .div2{
+       border:2px solid chartreuse;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       margin: 114px 26px;
+       /* border:2px solid chocolate; */
+       background-color: rgb(245, 219, 224);
+       border-radius: 15px;
+       transition: all 1s ease-in-out;
+       padding: 30px;
+   }
+   
+   .div2:hover{
+       background-color: chartreuse;
+       transition: all 1s ease-in-out;
+    }
+   .div2 p{
+       text-align: center;
+       margin-top: 50px;
+   }
+   .div3
+   { border:2px solid chartreuse;
+       align-items: center;
+       display: flex;
+       flex-direction: column;
+       margin: 114px 26px;
+       /* border:2px solid chocolate; */
+       background-color: rgb(245, 219, 224);
+       border-radius: 15px;
+       transition: all 1s ease-in-out;
+       padding: 30px;
+   }
+   .div3:hover{
+       background-color: chartreuse;
+       transition: all 1s ease-in-out;
+    }
+   
+   .div3 p{
+       text-align: center;
+       margin-top: 50px;
+   }
+   
+   
+   
+   
+   
+   
+   
+   /* section   facilities   */
+   .heading2{
+       margin-top: 12px;;
+   
+       color:rgb(243, 108, 18);
+   }
+   .divv1
+   {
+     text-align: center;
+     width:70%;
+     margin: -16px 183px;
+   margin-bottom: 111px;
+   
+   }
+   .division{
+   
+       display :flex;
+   }
+   
+   .div11{
+       border-radius:  50px;
+       background-color: rgb(245, 219, 224);
+       border:2px  solid chartreuse;
+       margin:12px;
+       text-align: center;
+       transition: all 1s ease-in-out;
+   }
+   .div11 h2{
+   
+       margin-top: 50px;
+   }
+   .div11:hover{
+       background-color: chartreuse;
+       /* margin:12px; */
+       transition: all 1s ease-in-out;}
+   
+   .div11 img{
+       /* align-content: center; 
+       align-items: center; */
+       height: 57%;
+   width: 62%;
+   border-radius: 40px;
+    }
+   
+   
+    .div12{
+       border-radius:  50px;
+        margin:12px;
+        text-align: center;
+        background-color: rgb(245, 219, 224);
+       border:2px  solid chartreuse;
+       transition: all 1s ease-in-out;
+   }
+   .div12 h2{
+   
+       margin-top: 50px;
+   }
+   
+   .div12:hover{
+       background-color: chartreuse;
+       transition: all 1s ease-in-out;}
+   .div12 img{
+       border-radius: 40px;
+       height: 57%;
+   width: 62%;
+   }
+   .div13{
+       background-color: rgb(245, 219, 224);
+       margin:12px;
+       text-align: center;
+       border:2px  solid chartreuse;
+       border-radius:  50px;
+       transition: all 1s ease-in-out;
+   }
+   .div13 h2{
+      /* font-size: 30px; */
+       margin-top: 50px;
+   }
+   
+   .div13:hover{
+       background-color: chartreuse;
+       transition: all 1s ease-in-out;}
+   
+   .div13  img{
+       height: 57%;
+       border-radius: 40px;
+       width: 62%;
+   }
+   
+   .about{
+   
+       text-align: center;
+       margin: 12px 112px;
+   }
+   .about h1{
+       font-size: 60px;      
+       color:rgb(243, 108, 18);
+   }.about p{
+       margin-top:  40px;
+   }
+   .about hr{
+   color:rgb(15, 6, 6);
+   }
+   
